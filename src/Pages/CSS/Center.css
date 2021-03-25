@@ -1,0 +1,22 @@
+.choncc {
+    margin-top: -100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.wrap {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerInPage {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}

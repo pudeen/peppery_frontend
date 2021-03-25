@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota+Text');
+.navbar {
+    background: #35B093;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 55px;
+    font-family: 'Advent Pro';
+}
+
+.logo:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: font-size .1s ease-in;
+    font-size: 54px;
+    color: #bbd8d7;
+}
+
+.profile:hover {
+    filter: brightness(0) saturate(100%) invert(90%) sepia(16%) saturate(257%) hue-rotate(129deg) brightness(94%) contrast(84%);
+    cursor: pointer;
+    transition: ease-in;
+}
+
+.profile {
+    width: 65px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 1.5px;
+  }
+  
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #77d3bd;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdownContent a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: 'Bellota Text';
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdownContent a:hover {
+    background-color: #ddd;
+    cursor: pointer;;
+    font-family: 'Bellota Text';
+  }
+  
+  .dropdown:hover .dropdownContent {
+    display: block;
+  }
+
+.menuItems {
+  font-family: 'Bellota Text';
+}

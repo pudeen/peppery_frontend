@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Biryani');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+@import url('https://fonts.googleapis.com/css?family=Bellota+Text');
+
+.adventPro {
+    font-family: 'Advent Pro';
+}
+
+.biryani {
+    font-family: 'Biryani';
+}
+
+.bellotaText {
+    font-family: 'Bellota Text';
+}
