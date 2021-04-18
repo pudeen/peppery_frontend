@@ -1,5 +1,6 @@
 import Home from './Pages/Home.js';
 import Login from './Pages/Login.js';
+import Profile from './Pages/Profile.js'
 import Register from './Pages/Register.js';
 import JobPage from './Pages/JobPage.js';
 
@@ -24,7 +25,9 @@ function App() {
           <Route exact path="/login">
             <Login />
           </Route>
-          <Route exact path="/profile"></Route>
+          <Route exact path="/profile">
+            <Profile />
+          </Route>
           <Route exact path="/jobs">
             <JobPage />
           </Route>
