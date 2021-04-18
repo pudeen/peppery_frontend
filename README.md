@@ -1,4 +1,6 @@
-Server for peppery careers platform.
+# peppery_frontend
+
+Frontend for peppery careers platform.
 
 Full API Documentation TBA.
 
