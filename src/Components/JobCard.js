@@ -1,6 +1,7 @@
 import React from 'react';
 import { host, getSkills } from '../utils/globals.js'
 import './CSS/JobCard.css';
+import '../Pages/CSS/Fonts.css'
 
 export default function JobCard({job}) {
   const [matchingSkills, setMatchingSkills] = React.useState([]);
@@ -22,23 +23,23 @@ export default function JobCard({job}) {
   return (
     <div className="jobCard">
       <div className="jobCardFlexChild">
-        <h1>{job.title}</h1>
-        <h2>{job.username}</h2>
-        <p>{job.body}</p>
-        <ul>
+        <h1 className="biryani">{job.title}</h1>
+        <h2 className="biryani">{job.username}</h2>
+        <p className="biryani">{job.body}</p>
+        <ul className="biryani">
           Matching skills:
           {matchingSkills.map((m, index) => (
             <li className="matchingSkills" key={index}>{m}</li>
           ))}
         </ul>
-        <ul>
+        <ul className="biryani">
           Required skills:
           {requiredSkills.map((m, index) => (
             <li className="requiredSkills" key={index}>{m}</li>
           ))}
         </ul>
       </div>
-      <div className="jobCardFlexChild">
+      <div className="jobCardFlexChild imgContainer">
         <img className="jobCardImage" src={host + job.image} />
       </div>
     </div>

@@ -1,4 +1,4 @@
-const host = 'http://127.0.0.1:8000';
+const host = 'http://peppery-server.herokuapp.com';
 
 const getUsername = () => {
     return localStorage.getItem('username');

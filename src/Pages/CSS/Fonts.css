@@ -13,3 +13,16 @@
 .bellotaText {
     font-family: 'Bellota Text';
 }
+
+.title {
+    color: #2D564F;
+    text-align: center;
+    font-size: 8vh;
+    margin: 0;
+}
+
+.header2 {
+    color: #79A39B;
+    text-align: center;
+    font-weight: lighter;
+}

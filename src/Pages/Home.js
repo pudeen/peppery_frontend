@@ -25,8 +25,8 @@ export default function Home() {
       <div className="centerInPage">
         <div className="choncc">
           <div className="wrap blueBack">
-            <h1 className="blueBack biryani">pepper your profession</h1>
-            <h2 className="centerTextBoi biryani">peppery aims to match, set-up and prepare your skills for your profession.</h2>
+            <h1 className="blueBack biryani title">Pepper Your Profession</h1>
+            <h2 className="centerTextBoi biryani header2">peppery aims to match, set-up and prepare your skills for your profession.</h2>
             <div className="flexCentreRow">
               <div className="greenBoi homeButton" onClick={login}>
                 <p className="thiccText">LOG IN</p>

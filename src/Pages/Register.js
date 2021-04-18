@@ -9,13 +9,14 @@ import './CSS/Flex.css';
 import './CSS/Buttons.css'
 import './CSS/Input.css'
 import '../Components/CSS/Text.css'
+import './CSS/Fonts.css'
 
 var querystring = require('querystring');
 
 export default function Register() {
   const history = useHistory();
-  const register = () => {
-    history.push('/register');
+  const login = () => {
+    history.push('/login');
   }
 
   const submitRegister = async (e) => {
@@ -56,8 +57,8 @@ export default function Register() {
       <div className="centerInPage">
         <div className="choncc">
           <div className="wrap blueBack">
-            <h1 className="blueBack biryani">REGISTER</h1>
-            <h2 className="centerTextBoi biryani">peppery aims to match, set-up and prepare your skills for your profession.</h2>
+            <h1 className="blueBack biryani title">REGISTER</h1>
+            <h2 className="centerTextBoi biryani header2">peppery aims to match, set-up and prepare your skills for your profession.</h2>
                 <form onSubmit={submitRegister}>
                   <div className="flexColumn">
                   <input type="text" className="input" placeholder="email" required name="email"/>
@@ -68,7 +69,7 @@ export default function Register() {
                   <button type="submit" className="greenBoi homeButton">
                     <p className="thiccText">SIGN UP</p>
                   </button>
-                  <div className="whiteBoi homeButton" onClick={register}>
+                  <div className="whiteBoi homeButton" onClick={login}>
                     <p className="thiccText">Already have an account? LOG IN</p>
                   </div>
                   </div>

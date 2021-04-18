@@ -9,6 +9,7 @@ import './CSS/Flex.css';
 import './CSS/Buttons.css'
 import './CSS/Input.css'
 import '../Components/CSS/Text.css'
+import './CSS/Fonts.css'
 
 var querystring = require('querystring');
 
@@ -53,8 +54,8 @@ export default function Login() {
       <div className="centerInPage">
         <div className="choncc">
           <div className="wrap blueBack">
-            <h1 className="blueBack biryani">LOGIN</h1>
-            <h2 className="centerTextBoi biryani">peppery aims to match, set-up and prepare your skills for your profession.</h2>
+            <h1 className="blueBack biryani title">LOGIN</h1>
+            <h2 className="centerTextBoi biryani header2">peppery aims to match, set-up and prepare your skills for your profession.</h2>
                 <form onSubmit={submitLogin}>
                   <div className="flexColumn">
                   <input type="text" className="input" placeholder="email" required name="email"/>
